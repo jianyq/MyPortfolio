@@ -41,11 +41,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a CS+Math student at UIUC. With extensive experience in algorithm competitions, a familiarity with full-stack technology, and a thirst for knowledge, I'm constantly pushing boundaries to shape the future of AI. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-4 border p-2">
         <div className="flex justify-between">
@@ -54,14 +50,15 @@ const About = () => {
           <div className="flex flex-col">
           <p className="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]">Personal Info</p>
             <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Name: <span className="text-white">Yuqing Jian</span></p>
-            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Phone: <span className="text-white">217-721-0439</span></p>
             <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Email: <span className="text-white">yuqingj2@illinois.edu</span></p>
+            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Phone: <span className="text-white">217-721-0439</span></p>
+            
 
 
             </div>
             {/* give a link to your resume here */}
             <a href={Pdf} target="_blank" rel="noreferrer">
-              <button className="bg-tertiary text-white px-4 py-2 rounded-md hover:bg-white hover:text-tertiary">Resume</button>
+              <button className="bg-tertiary text-white px-4 py-2 rounded-md hover:bg-white hover:text-tertiary">My resume</button>
             </a>
 
           </div>
