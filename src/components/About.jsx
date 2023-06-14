@@ -1,7 +1,9 @@
 import React from "react";
 import Parallax from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import Pdf from '../Documents/Resume.pdf';
 
+   
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -51,17 +53,16 @@ const About = () => {
           
           <div className="flex flex-col">
           <p className="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]">Personal Info</p>
-            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Name: <span className="text-white">Siddharth Singh</span></p>
-            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Age: <span className="text-white">21</span></p>
-            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Location: <span className="text-white">India</span></p>
+            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Name: <span className="text-white">Yuqing Jian</span></p>
+            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Phone: <span className="text-white">217-721-0439</span></p>
+            <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">Email: <span className="text-white">yuqingj2@illinois.edu</span></p>
 
 
             </div>
             {/* give a link to your resume here */}
-            <a href="https://drive.google.com/file/d/1Z3Z3Q4Z3Z3Q4Z3Q4Z3Q4Z3Q4Z3Q4Z3Q4/view?usp=sharing" target="_blank" rel="noreferrer">
-              <button className="bg-tertiary text-white px-4 py-2 rounded-md">Resume</button>
+            <a href={Pdf} target="_blank" rel="noreferrer">
+              <button className="bg-tertiary text-white px-4 py-2 rounded-md hover:bg-white hover:text-tertiary">Resume</button>
             </a>
-            {/* open A new page to show your resume */}
 
           </div>
       </div>
