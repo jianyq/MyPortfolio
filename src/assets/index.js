@@ -31,6 +31,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import uiuc from "./school/uiuc.png";
+import rdfz from "./school/rdfz.png";
+
+import qiyin from "./company/qiyin.png"
+import thunlp from "./company/thunlp.png"
+import sensetime from "./company/sensetime.png"
 
 export {
   logo,
@@ -62,4 +67,8 @@ export {
   jobit,
   tripguide,
   uiuc,
+  rdfz,
+  qiyin,
+  thunlp,
+  sensetime,
 };
