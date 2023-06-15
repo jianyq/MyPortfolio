@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   meta,
+  uiuc,
   starbucks,
   tesla,
   shopify,
@@ -29,6 +30,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "work",
@@ -112,6 +117,40 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+];
+
+const educations = [
+  {
+    title: "Bachelor of Mathematics and Computer Science",
+    school: "University of Illinois Urbana-Champaign",
+    icon: uiuc,
+    iconBg: "#383E56",
+    date: "March 2023 - April 2026",
+    Honor: "Dean's List (top 10%)",
+    GPA: "4.0",
+    Courses: "Data Structures, Algorithms, Discrete Mathematics, Linear Algebra, Calculus",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "High School Diploma",
+    school: "The High School Affiliated to Renmin University of China",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    Honor: "Dean's List (top 10%)",
+    GPA: "4.0",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  }
 ];
 
 const experiences = [
@@ -262,4 +301,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, educations, experiences, testimonials, projects };
