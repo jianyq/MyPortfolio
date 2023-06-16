@@ -37,6 +37,9 @@ import qiyin from "./company/qiyin.png"
 import thunlp from "./company/thunlp.png"
 import sensetime from "./company/sensetime.png"
 
+import likaifu from "./boss/likaifu.jpg"
+import sunmaosong from "./boss/sunmaosong.jpg"
+import egunter from "./boss/egunter.jpg"
 export {
   logo,
   backend,
@@ -71,4 +74,7 @@ export {
   qiyin,
   thunlp,
   sensetime,
+  likaifu,
+  sunmaosong,
+  egunter,
 };

@@ -28,6 +28,9 @@ import {
   qiyin,
   thunlp,
   sensetime,
+  likaifu,
+  sunmaosong,
+  egunter,
 } from "../assets";
 
 export const navLinks = [
@@ -227,27 +230,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Impressive to see our youngest AI Summer Camp participant complete a complex project. His ageless curiosity and innovation herald a bright future in AI.",
+    name: "kai-fu lee",
+    designation: "CEO",
+    company: "Sinovation Ventures",
+    image: likaifu,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He is an active learner and innovator, with a keen interest in exploring music-related issues using computer technology. Also, he possesses a strong ability for self-learning, making noteworthy contributions in various areas.",
+    name: "Maosong Sun",
+    designation: "Foreign Academician",
+    company: "the European Academy of Humanities and Natural Sciences",
+    image: sunmaosong,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Not only does he have a solid foundation in computer science, but he has also made outstanding contributions to upholding the principles of integrity in the school.",
+    name: "Elsa L Gunter",
+    designation: "Research Professor",
+    company: "Department of Computer Science in UIUC",
+    image: egunter,
   },
 ];
 
