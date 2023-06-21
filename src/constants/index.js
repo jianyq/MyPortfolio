@@ -136,7 +136,7 @@ const educations = [
     school: "University of Illinois Urbana-Champaign",
     icon: uiuc,
     iconBg: "#34568b",
-    date: "Jan 2023 - May 2026",
+    date: "Sep 2021 - Dec 2024",
     description: "The University of Illinois at Urbana-Champaign (UIUC), established in 1867, is a renowned public research university. Its Department of Computer Science is a world leader, with comprehensive, innovative programs. As of 2021, the department's computer science program was ranked among the top 5 in the U.S. by the U.S. News & World Report. UIUC has made significant contributions in AI, database systems, and more. The birthplace of the first graphical web browser, UIUC is recognized for its research and technological innovation. ",
     // Honor: "Dean's List (top 10%)",
     GPA: "4.0",
@@ -155,7 +155,7 @@ const educations = [
     iconBg: "#ffffff",
 
     description: "The High School Affiliated to Renmin University of China (RDFZ) ranks first on the high school rankings in Beijing and across China. It is one of the most prestigious high schools in China. RDFZ is also a member of the G30 Schools. In 2020, it was recognized by the Ministry of Education as one of the first national-level demonstration high schools.",
-    date: "Sep 2019 - Jul 2022",
+    date: "Sep 2019 - Jun 2021",
     // Honor: "Dean's List (top 10%)",
     GPA: "4.0",
     // points: [

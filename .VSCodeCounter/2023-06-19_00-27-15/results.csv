@@ -1,0 +1,39 @@
+"filename", "language", "JavaScript", "JSON", "JavaScript JSX", "Markdown", "CSS", "XML", "HTML", "comment", "blank", "total"
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\README.md", "Markdown", 0, 0, 0, 17, 0, 0, 0, 0, 4, 21
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\index.html", "HTML", 0, 0, 0, 0, 0, 0, 13, 2, 2, 17
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\package-lock.json", "JSON", 0, 2840, 0, 0, 0, 0, 0, 0, 1, 2841
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\package.json", "JSON", 0, 35, 0, 0, 0, 0, 0, 0, 1, 36
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\postcss.config.cjs", "JavaScript", 6, 0, 0, 0, 0, 0, 0, 0, 0, 6
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\public\logo.svg", "XML", 0, 0, 0, 0, 0, 66, 0, 0, 1, 67
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\App.jsx", "JavaScript JSX", 0, 0, 25, 0, 0, 0, 0, 0, 4, 29
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\assets\close.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 3
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\assets\index.js", "JavaScript", 74, 0, 0, 0, 0, 0, 0, 0, 7, 81
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\assets\logo.svg", "XML", 0, 0, 0, 0, 0, 66, 0, 0, 1, 67
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\assets\menu.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 3
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\assets\tech\threejs.svg", "XML", 0, 0, 0, 0, 0, 11, 0, 0, 1, 12
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\About.jsx", "JavaScript JSX", 0, 0, 62, 0, 0, 0, 0, 2, 12, 76
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Contact.jsx", "JavaScript JSX", 0, 0, 122, 0, 0, 0, 0, 0, 15, 137
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Education.jsx", "JavaScript JSX", 0, 0, 82, 0, 0, 0, 0, 12, 10, 104
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Experience.jsx", "JavaScript JSX", 0, 0, 78, 0, 0, 0, 0, 0, 8, 86
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Feedbacks.jsx", "JavaScript JSX", 0, 0, 59, 0, 0, 0, 0, 0, 8, 67
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Hero.jsx", "JavaScript JSX", 0, 0, 45, 0, 0, 0, 0, 0, 7, 52
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Loader.jsx", "JavaScript JSX", 0, 0, 29, 0, 0, 0, 0, 0, 3, 32
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 92, 0, 0, 0, 0, 6, 9, 107
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Tech.jsx", "JavaScript JSX", 0, 0, 16, 0, 0, 0, 0, 0, 4, 20
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\Works.jsx", "JavaScript JSX", 0, 0, 90, 0, 0, 0, 0, 0, 13, 103
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\canvas\Ball.jsx", "JavaScript JSX", 0, 0, 51, 0, 0, 0, 0, 0, 7, 58
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\canvas\Computers.jsx", "JavaScript JSX", 0, 0, 61, 0, 0, 0, 0, 5, 13, 79
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\canvas\Earth.jsx", "JavaScript JSX", 0, 0, 43, 0, 0, 0, 0, 0, 7, 50
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\canvas\Stars.jsx", "JavaScript JSX", 0, 0, 68, 0, 0, 0, 0, 2, 21, 91
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\canvas\index.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\components\index.js", "JavaScript", 27, 0, 0, 0, 0, 0, 0, 0, 3, 30
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\constants\index.js", "JavaScript", 287, 0, 0, 0, 0, 0, 0, 27, 10, 324
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\hoc\SectionWrapper.jsx", "JavaScript JSX", 0, 0, 21, 0, 0, 0, 0, 0, 5, 26
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\hoc\index.js", "JavaScript", 2, 0, 0, 0, 0, 0, 0, 0, 2, 4
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\index.css", "CSS", 0, 0, 0, 0, 190, 0, 0, 2, 13, 205
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\main.jsx", "JavaScript JSX", 0, 0, 9, 0, 0, 0, 0, 0, 3, 12
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\styles.js", "JavaScript", 14, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\src\utils\motion.js", "JavaScript", 84, 0, 0, 0, 0, 0, 0, 0, 5, 89
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\tailwind.config.cjs", "JavaScript", 26, 0, 0, 0, 0, 0, 0, 1, 1, 28
+"f:\university\UIUC\23SUMMER\Project\project_3D_developer_portfolio-main\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 530, 2875, 953, 17, 190, 149, 13, 60, 209, 4996
