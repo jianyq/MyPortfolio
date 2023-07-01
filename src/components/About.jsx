@@ -30,6 +30,21 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const iframeContainerStyle = {
+    position: 'relative',
+    overflow: 'hidden',
+    paddingTop: '56.25%',
+    height: 0,
+  };
+
+  const iframeStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    border: 0,
+  };
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -43,6 +58,8 @@ const About = () => {
       >
         I am a CS+Math student at UIUC. With extensive experience in algorithm competitions, a familiarity with full-stack technology, and a thirst for knowledge, I'm constantly pushing boundaries to shape the future of AI. Let's work together to bring your ideas to life!
       </motion.p>
+      
+
       <div className="mt-4 border p-2">
         <div className="flex justify-between">
           {/* Personal Info title*/}
@@ -62,6 +79,14 @@ const About = () => {
             </a>
 
           </div>
+      </div>
+      <div style={iframeContainerStyle}>
+        <iframe 
+          src="https://jianyq-resumebot.hf.space"
+          title="Resumebot"
+          allowFullScreen
+          style={iframeStyle}
+        ></iframe>
       </div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
