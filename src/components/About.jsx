@@ -1,7 +1,7 @@
 import React from "react";
 import Parallax from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import Pdf from '../Documents/Resume.pdf';
+import Pdf from '../documents/Resume.pdf';
 
    
 import { styles } from "../styles";
