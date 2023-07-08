@@ -192,7 +192,7 @@ const experiences = [
     iconBg: "#ffffff",
     date: "March 2022 - January 2023",
     points: [
-      "Data Cleaning & Processing: Developed an effective data cleaning solution with Gensim and FastNLP,used \
+      "Data Cleaning & Processing: Developed an effective data cleaning solution with Gensim and FastNLP, used \
       Scrapy and selenium for web scraping, leading to a richer and cleaner dataset for model training.",
       "Model Building: Continue SongNet’s work, Created NLP models with Huggingface and KeyBert, introducing \
       the ability to generate lyrics based on specific keywords, length, and other elements.",
