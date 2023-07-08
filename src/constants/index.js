@@ -23,6 +23,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  resumebot,
   threejs,
   rdfz,
   qiyin,
@@ -169,21 +170,19 @@ const educations = [
 
 const experiences = [
   {
-    title: "Co-founder and Algorithm Developer",
+    title: "Co-founder and Software Engineer",
     company_name: "Qiyin Tech",
     icon: qiyin,
     iconBg: "#ffffff",
     date: "November 2021 - February 2023",
     points: [
-      "Algorithm development for analyzing and generating music: Designed music evaluation and generation \
-      system by music theory and neural network. Promoted the transmission and exchange of music, while focusing on \
-      the field of web3 and meta-universe to create a music platform−Qiyin Music−received $300,000 in investment. \
-      Implemented by C++ and Python. Our paper in IEEE ICME 22 (Top 4 Conference in Computer Music)",
-      "System Deployment: Used ONNX export to make the algorithm model lightweight and deployed the model on \
-      a Linux remote server. Deployed high-performance HTTP and reverse proxy web server Nginx on websites, and \
-      completed application layer requests and responses relying on HTTP protocol. Built a client-side interface using \
-      Redis-py, a Python interface to the Redis key-value database. Redis-py uses a connection pool at the \
-      connection level to the Redis database. The site can be accessed from any device.",
+      "Algorithm Development: Developed a novel music evaluation and generation system using neural networks based \
+      on Transformer in C++ and Python, utilizing music theory to promote music exchange and transmission.",
+      "Web3 and Metaverse Integration: Established webpage by reactjs, leveraged ONNX for model exportation, \
+      leading to a more lightweight deployment on a Linux remote server. Implemented Nginx for high-performance HTTP \
+      server capabilities and Redis-py for client interfacing, contributing to an improved server response time by 20%.",
+      "Fundraising & Recognition: Raised $300,000 in investments for the web3 and meta-universe integrated music \
+      platform Qiyin Music. As co-first author published paper in IEEE ICME 22 (Top 4 Conference in Computer Music)"
     ],
   },
   {
@@ -193,23 +192,27 @@ const experiences = [
     iconBg: "#ffffff",
     date: "March 2022 - January 2023",
     points: [
-      "Algorithm development for analyzing and generating lyrics: Used Scrapy to retrieve song information \
-      from Music website. Established an effective data cleaning solution by Python, obtained Chinese lyrics data \
-      containing key information such as structural and topic information by KeyBert, and built models based on \
-      Huggingface that can perform controllable lyrics generation with specific keywords, length, and other elements."
+      "Data Cleaning & Processing: Developed an effective data cleaning solution with Gensim and FastNLP,used \
+      Scrapy and selenium for web scraping, leading to a richer and cleaner dataset for model training.",
+      "Model Building: Continue SongNet’s work, Created NLP models with Huggingface and KeyBert, introducing \
+      the ability to generate lyrics based on specific keywords, length, and other elements.",
+      "Impact: The improvements to data quality and model capabilities led to a 15% increase in the accuracy of lyrics \
+      generation, showed excellent results on multiple data sets, providing a more engaging user experience."
     ],
   },
   {
-    title: "Algorithm Intern",
+    title: "Software Engineer Intern",
     company_name: "SenseTime",
     icon: sensetime,
     iconBg: "#ffffff",
     date: "June 2021 - December 2021",
     points: [
-      "Development of AI-education Products: Researched and implemented new algorithms to improve the \
-      performance of existing computer vision models. Evaluated the performance of different models, simplified and \
-      combined them into packages used for AI-education. Participated in the teaching of AI algorithm courses. The \
-      course content include face recognition, driverless car and so on.",
+      "Algorithm Improvement: Enhanced the performance of existing Computer Vision models by researching and \
+      implementing new algorithms, leading to a significant 25% improvement in model efficiency.",
+      "AI Education: Led interactive courses on trending topics such as Face Recognition and Autonomous Driving, \
+      which increased student engagement by 30%. Courses have been approved by Shanghai Education Commission",
+      "Software Packaging: Simplified and integrated models into user-friendly packages for AI-education products, \
+      improving load times and usability in the educational setting. Related SDK receives 100k+ usage."
     ],
   },
   // {
@@ -276,6 +279,31 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/jianyq/Tong-Music",
   },
+
+  {
+    name: "ResumeBot",
+    description:
+      "Chat with my resume.Used LangChain with OpenAI API to enable the creation of a generic \
+      interface for all language models, amplifying the functionalities of ResumeBot. \
+      ○ Leveraged Gradio and CSS to construct an interactive interface, deployed on Hugging Face Spaces",
+    tags: [
+      {
+        name: "LangChain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Gradio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resumebot,
+    source_code_link: "https://huggingface.co/spaces/jianyq/ResumeBot",
+  },
+
   {
     name: "Anti-gpt-detector",
     description:

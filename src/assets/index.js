@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import resumebot from "./resumebot.png";
 
 import uiuc from "./school/uiuc.png";
 import rdfz from "./school/rdfz.png";
@@ -69,6 +70,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  resumebot,
   uiuc,
   rdfz,
   qiyin,
